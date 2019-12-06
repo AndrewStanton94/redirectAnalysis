@@ -29,8 +29,6 @@ export default {
 
 			reader.readAsText(files[0]);
 			reader.onload = (event) => {
-				console.log(event.target.result);
-
 				this.$emit('input', event.target.result);
 			};
 			reader.onerror = (evt) => {
