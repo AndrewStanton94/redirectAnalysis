@@ -1,0 +1,19 @@
+{
+  "name": "redirect_analysis",
+  "version": "1.0.0",
+  "description": "Make sense of your redirects: Take an HTACCESS file or other formats, extract the rules and produce a graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewStanton94/redirectAnalysis.git"
+  },
+  "author": "Andrew Stanton (up683693@myport.ac.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewStanton94/redirectAnalysis/issues"
+  },
+  "homepage": "https://github.com/AndrewStanton94/redirectAnalysis#readme"
+}
