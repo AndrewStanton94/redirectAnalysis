@@ -1,19 +1,33 @@
 {
-  "name": "redirect_analysis",
-  "version": "1.0.0",
-  "description": "Make sense of your redirects: Take an HTACCESS file or other formats, extract the rules and produce a graph",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndrewStanton94/redirectAnalysis.git"
-  },
-  "author": "Andrew Stanton (up683693@myport.ac.uk)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AndrewStanton94/redirectAnalysis/issues"
-  },
-  "homepage": "https://github.com/AndrewStanton94/redirectAnalysis#readme"
+	"name": "redirect_analysis",
+	"version": "1.0.0",
+	"description": "Make sense of your redirects: Take an HTACCESS file or other formats, extract the rules and produce a graph",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AndrewStanton94/redirectAnalysis.git"
+	},
+	"author": "Andrew Stanton (up683693@myport.ac.uk)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AndrewStanton94/redirectAnalysis/issues"
+	},
+	"homepage": "https://github.com/AndrewStanton94/redirectAnalysis#readme",
+	"dependencies": {
+		"vue": "^2.6.10",
+		"vue-hot-reload-api": "^2.3.4"
+	},
+	"devDependencies": {
+		"@vue/component-compiler-utils": "^3.0.2",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.0.1",
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.23.7",
+		"typescript": "^3.7.3",
+		"vue-template-compiler": "^2.6.10"
+	}
 }
