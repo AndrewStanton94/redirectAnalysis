@@ -1,5 +1,8 @@
 <template>
-  <h1> Hello {{bundler}} </h1>
+	<main>
+		<h1>Hello {{ bundler }}</h1>
+		<file-input />
+	</main>
 </template>
 
 <script lang="ts">
